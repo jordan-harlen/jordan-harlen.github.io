@@ -9,12 +9,24 @@ header {
   width: 100%;
 }
 
+.top {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
 body {
   background-color: cornsilk;
 }
 
 .title {
   text-align: center;
+  width: 100%;
+}
+
+.navbar {
+  text-align: center;
+  display: flex;
+  width: 100%;
 }
 
 .welcome {
@@ -31,4 +43,24 @@ body {
   margin-right: auto;
   width: 30%;
   height: auto;
+}
+
+.sprint-1 {
+  margin: auto;
+}
+
+.sprint-2 {
+  margin: auto;
+}
+
+.sprint-3 {
+  margin: auto;
+}
+
+.sprint-4 {
+  margin: auto;
+}
+
+.sprint-5 {
+  margin: auto;
 }
