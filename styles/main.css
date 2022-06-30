@@ -101,6 +101,11 @@ body {
   text-align: center;
 }
 
+.home {
+  margin: 0 auto;
+  width: 8.33%;
+}
+
 .values-q {
   font-weight: bold;
 }
