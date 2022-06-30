@@ -1,4 +1,15 @@
 * {
+  border: 1px solid red !important;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
   font-family: 'Rubik', sans-serif;
 }
 
@@ -11,25 +22,36 @@ header {
 
 .top {
   width: 100%;
-  margin-bottom: 20px;
 }
 
 body {
   background-color: cornsilk;
+  margin: auto;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .title {
   text-align: center;
   width: 100%;
+  text-decoration: underline;
 }
 
-.navbar {
-  text-align: center;
+.navbar-1 {
   display: flex;
   width: 100%;
+  max-width: 1200px;
+  margin: auto;
 }
 
-.welcome {
+.navbar-2 {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.welcome-title {
   text-align: center;
 }
 
@@ -45,22 +67,40 @@ body {
   height: auto;
 }
 
+.cat-names {
+  text-align: center;
+}
+
 .sprint-1 {
-  margin: auto;
+  margin: 0 auto;
+  width: 33.33%;
+  text-align: center;
 }
 
 .sprint-2 {
-  margin: auto;
+  margin: 0 auto;
+  width: 33.33%;
+  text-align: center;
 }
 
 .sprint-3 {
-  margin: auto;
+  margin: 0 auto;
+  width: 33.33%;
+  text-align: center;
 }
 
 .sprint-4 {
-  margin: auto;
+  margin: 0 auto;
+  width: 33.33%;
+  text-align: center;
 }
 
 .sprint-5 {
-  margin: auto;
+  margin: 0 auto;
+  width: 8.33%;
+  text-align: center;
+}
+
+.values-q {
+  font-weight: bold;
 }
