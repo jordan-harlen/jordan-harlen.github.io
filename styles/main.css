@@ -20,6 +20,14 @@ body {
   width: 100%;
 }
 
+figcaption {
+  font-style: italic;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
 .title {
   text-align: center;
   width: 100%;
